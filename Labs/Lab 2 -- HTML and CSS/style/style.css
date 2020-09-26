@@ -1,0 +1,117 @@
+* {
+    /* background-color: #ffffff; */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ranchers', cursive;
+    letter-spacing: 2px;
+}
+header{
+    text-align: center;
+}
+
+#top-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+    text-align: left;
+}
+
+#top-menu li {
+    display: inline-block;
+}
+
+#top-menu li a {
+    display: block;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 15px 20px;
+}
+
+.logo {
+    display: block;
+    margin: 15px auto;
+    color: aqua;
+}
+.logo img {
+    min-height: 300px;
+    max-height: 500px;
+}
+.logo h1 {
+    font-size: 2.5em;
+}
+.logo h1 strong {
+    color: coral;
+}
+
+.info {
+    background-color: aqua;
+    color: blue;
+    margin-top: 10px;
+}
+
+.info h2 {
+    font-size: 1.5em;
+    padding: 10px;
+}
+.info p {
+    font-size: 1.23em;
+    padding: 15px 20px;
+    padding-left: 40px;
+}
+
+.sources ul{
+    list-style: none;
+    padding: 20px;
+    padding-top: 10px;
+}
+.sources ul li{
+    padding: 10px;
+    font-size: 1.5em;
+}
+.info a:visited{ color:coral;}
+.info a:hover { color: blueviolet;}
+.info a:active { color: yellow;}
+
+#resource {
+    display: block;
+    height: 200px;
+}
+#resource h2 {
+    padding-top: 85px;
+    text-align: center;
+}
+#resource h2 a {text-decoration: none;}
+#resource h2 a:visited {color: rgb(4, 189, 245);}
+#resource h2 a:hover {color: aqua;}
+#resource h2 a:active{color: coral;}
+
+#call {
+    background-color: lightgray;
+    color: coral;
+    text-align: center;
+    padding: 30px;
+}
+#call h3 {
+    padding-top: 15px;
+    font-size: 2.2em;
+}
+
+#call p {
+    font-size: 1.8em;
+    padding-bottom: 15px;
+}
+
+footer{
+    display: block;
+    background-color: black;
+    color: white;
+    height: 100px
+}
+
+footer p {
+    text-align: center;
+    padding-top: 40px;
+
+}

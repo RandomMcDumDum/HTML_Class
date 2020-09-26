@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+* {
+    /* font-family: 'Merriweather', serif; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a:link {color: hotpink;}
+a:visited {color: limegreen;}
+a:hover {color: blue;}
+a:active{color:purple;}
+
+/* 
+    this sets my
+    body background
+    color to
+    light gray
+*/
+body {
+    background-color: lightgray;
+}
+
+#vr-definition {
+    color: red;
+    font-weight: bold;
+}
+
+.tech-section {
+    background-color: rgb(13, 206, 219);
+    /* text-align: center; */
+}
+
+.device-list {
+    list-style-type: square;
+}
+
+/* span{
+    color: blue;
+}
+
+div {
+    background-color: aqua;
+} */
+
+header {
+    text-align: center;
+    background-color: gray;
+}
+
+#menu-list{
+    list-style-type: none;
+    background-color: salmon;
+}
+header h3 {
+    letter-spacing: 10px;
+    word-spacing: 30px;
+}
+
+h1, h2, h3 {
+    color: darksalmon;
+}
+
+p {
+    color: green;
+    font-size: 16px;
+    font-size: 1.25rem;
+    font-size: 30px;
+    font-size: 125%;
+    font-size: 1.25em;
+
+    font-weight: 400;
+}
+
+footer {
+    background-color: antiquewhite;
+    color: cornflowerblue;    
+    text-align: center;
+}

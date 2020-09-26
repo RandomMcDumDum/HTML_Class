@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 8000px
+}
+
+.box {
+    height: 120px;
+    width: 120px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+#container {
+    width: 400px;
+    height: 400px;   
+    background-color: #888888;
+    position: relative;
+    z-index: -8;
+
+}
+
+#box_1 {
+    background-color: red;
+    position: relative;
+    top: 40px;
+    right: 40px;
+    z-index: 9;
+}
+
+#box_2 {
+    background-color: orange;
+    position: absolute;
+    top: 140px;
+    right: 40px;
+   
+
+}
+
+#box_3 {
+    background-color: yellow;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+
+#box_4 {
+    background-color:green;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    z-index: 10;
+}
+
+#box_5 {
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+#box_6 {
+    background-color: violet;
+    position: sticky;
+    top: 50px;
+    z-index: -10;
+    display: none;
+}
+
+/* End of - POSITION STUFF */
+
+
+#float_box {
+    background: orange;
+    height: 160px;
+    width: 160px;
+    float: right;
+    margin: 30px;
+    /* display: none; */
+    visibility: hidden;
+}
+
+/* End of - FLOAT_BOX */
+
+.story-header {
+    background: #888888;
+    position: sticky;
+    top: 0px;
+    height: 30px;
+}
+
+.story {
+    background: #d4d4d4;
+}
+
+.story p {
+    /* column-count: 2; */
+    padding: 1em;
+    column-gap: 3em;
+    column-rule: 1px dashed #888;
+}
+
+#story_1 p {
+    column-width: 350px;
+}
+
+#story_2 p {
+    column-width: 200px;
+}
+
+/* End of - BIG STORIES */
+
+#mini_container{
+    background: #888888;
+    width: 95%;
+    padding: 1em;
+    margin: auto;
+
+    /* overflow: auto; */
+
+}
+
+.mini_story {
+    background: #dddddd;
+    width: 23%;
+    padding: 1em;
+    margin: 1%;
+    border: 5px white solid;
+    float: left;
+}
+
+/* Clear-Fix hack */
+
+#mini_container::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+#last_box{
+    background: #888888;
+    max-width: 900px;
+    min-height: 700px;
+    padding: 1em;
+    margin: 3em auto;
+}
+
+#last_box ul {
+    background: #d4d4d4;
+    padding: 0;
+    width: 250px;
+    margin: auto;
+    list-style-position: inside;
+}

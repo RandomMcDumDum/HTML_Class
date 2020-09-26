@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More CSS</title>
+
+    <style>
+        *{
+            /* background-color: #aaa; */
+            box-sizing: border-box;
+            /* padding: 0;
+            margin: 0; */
+        }
+
+        body {
+
+            background-image: url('./img/fluffy_cloud.png'), url('./img/background.jpeg');
+            background-repeat: no-repeat, repeat;
+            background-position: center, center;
+            background-size: 200px, cover;
+            background-attachment: fixed, scroll;
+        }
+
+        .clr {
+            clear: both;
+        }
+
+        .box {
+            background-color: #f4f4f4;
+            padding: 20px;
+            padding-top: 15px;
+            padding-right: 5px;
+            padding-bottom: 30px;
+            padding-left: 10px;
+
+            padding: 15px 30px 15px 30px;
+            padding: 15px 30px;
+
+            /* margin: 15px; */
+            border: #888 dotted 4px;
+            border-right: red 4px dotted;
+            border-radius: 20px;
+            /* outline: red 2px solid;
+            outline-offset: 7.5px; */
+
+            width: 32%;
+            height: 150px;
+            overflow: auto;
+
+            opacity: .9;
+            text-shadow: 2px 2px 4px #000;
+
+            display: inline-block;
+
+        }
+
+        .box h3{
+            color: white;
+            text-shadow: 2px 2px 4px #000;
+            text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+        }
+
+        .box h3, p{
+            background-color: inherit;
+        }
+
+        h3{
+            margin-bottom: 15px;
+        }
+
+        /* li{
+            display: inline;
+        } */
+
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+        }
+
+        .new-box {
+            background-color: #eee;
+            border: rgb(90, 74, 74) 2px solid;
+            padding: 20px;
+            margin: 5px;
+        }
+
+        #new-box1{
+            float: left;
+            width: 68%;
+            background-image: linear-gradient(rgb(36, 36, 36), rgb(146, 146, 146));
+        }
+
+        div 
+
+        #new-box2{
+            float: right;
+            width: 26%;
+        }
+
+        #top-menu {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: #888;
+        }
+        #top-menu li {
+            display: inline-block;
+        }
+
+        #top-menu li a{
+            display: block;
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+            padding: 15px 20px;
+        }
+
+        #top-menu li a:hover{
+            background-color: #676666;
+            color: #555555;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul id="top-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://www.w3schools.com/">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="box">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum iusto nostrum. Reprehenderit nihil ullam corrupti, eligendi ea rerum aspernatur!</p>
+    </div>
+    <div class="box">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum iusto nostrum. Reprehenderit nihil ullam corrupti, eligendi ea rerum aspernatur!</p>
+    </div>
+    <div class="box">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum iusto nostrum. Reprehenderit nihil ullam corrupti, eligendi ea rerum aspernatur!</p>
+    </div>
+
+    <!-- <ul>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+    </ul> -->
+
+    <hr>
+
+    <div class="container">
+
+        <div id="new-box1" class="new-box">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum iusto nostrum. Reprehenderit nihil ullam corrupti, eligendi ea rerum aspernatur!</p>
+        </div>
+        <div id='new-box2' class="new-box">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum iusto nostrum. Reprehenderit nihil ullam corrupti, eligendi ea rerum aspernatur!</p>
+        </div>
+
+    <div class="clr"></div>
+        <div id="new-box3" class="new-box">
+            <h3>Heading</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid dolorum iusto nostrum. Reprehenderit nihil ullam corrupti, eligendi ea rerum aspernatur!</p>
+        </div>
+
+    </div>
+
+    <p style= 'color: white;'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dicta provident, ex aliquid minus architecto aperiam esse quisquam veritatis, sit dignissimos neque tempore harum iure. Non, quibusdam voluptate, quis numquam inventore saepe iure assumenda perferendis quia maiores fugiat neque sunt architecto placeat itaque porro quos voluptates enim voluptatibus reprehenderit. Doloribus, debitis? Quo, recusandae quas illum nesciunt quia ullam aspernatur at ut dicta vel voluptatem totam explicabo dolores esse voluptas aperiam ad maiores, est nostrum. Architecto ullam numquam consequuntur eligendi! Nobis fugiat debitis repellat nihil ratione saepe voluptas placeat inventore explicabo quibusdam, quod corporis cum ut mollitia laborum dolorem repellendus dolorum quas. Mollitia sequi, consectetur voluptatem suscipit repudiandae cupiditate itaque ab nulla sapiente reiciendis est deserunt maiores hic ducimus eum saepe numquam ullam perspiciatis culpa quia ipsum doloremque labore ipsa. Quis laudantium totam iure quaerat, rerum facilis ab possimus veritatis tempora. Tenetur odio, illum, soluta harum laudantium aspernatur est vitae tempore quasi cum ut nesciunt quidem veritatis delectus laborum voluptates error quibusdam blanditiis iste porro architecto id unde aut! Voluptas nobis quaerat quisquam nam saepe dignissimos aperiam ipsam mollitia autem, assumenda culpa officia alias quis non suscipit expedita sed laboriosam. Omnis porro aperiam repellendus vero ipsum quidem accusantium amet voluptas inventore nulla corporis sed dolores commodi, obcaecati dolorum ducimus quibusdam placeat quae consequuntur magnam veritatis voluptatem numquam. Nesciunt tempora nisi nemo tempore, voluptatum praesentium necessitatibus corporis neque excepturi nostrum voluptate, quidem eos alias quas beatae. Accusamus numquam consequatur, rem veritatis nulla quisquam beatae repellendus praesentium unde tempore modi atque sed aspernatur, dolorem adipisci? Atque maxime eaque dolorem suscipit fugit aspernatur rerum doloribus, obcaecati quod magnam id sunt? Laudantium magni quas velit laborum eius optio mollitia officiis nostrum. Reiciendis ea, debitis maxime beatae odit saepe deleniti dicta ab tenetur placeat quaerat libero molestiae cum temporibus quos! Non, placeat rem quae laborum, eos expedita sunt eveniet perspiciatis inventore quis atque vero cumque ea eum nisi pariatur laboriosam esse neque odit molestiae facere. Consectetur, facilis non corporis omnis repellendus reiciendis quisquam illo eum neque laborum alias vel repudiandae repellat recusandae pariatur. Ad doloribus reprehenderit ipsa beatae. Doloribus recusandae inventore quia hic beatae dolor perferendis fugiat et quam id sunt delectus suscipit a at ratione laborum in tempora, numquam esse aut. Inventore hic facilis pariatur, odio dolor eum explicabo mollitia est sed incidunt dignissimos nisi, vel quia vero autem ut aliquam. Sit omnis ex eius ad. Nam, maiores repellat consequuntur facilis corrupti illum debitis deleniti ratione sapiente saepe consequatur fuga neque alias rerum hic expedita aliquid, dolore repudiandae exercitationem voluptatibus obcaecati voluptatem? Dolore distinctio itaque blanditiis a soluta aperiam adipisci provident quos exercitationem explicabo qui obcaecati aspernatur pariatur ipsa quaerat sunt sapiente magnam deserunt quasi nemo, quod, quisquam deleniti animi? Eligendi reiciendis consequatur soluta, quod ratione rem voluptatibus. Voluptate ex inventore, accusamus dolor repellendus suscipit earum, iure iste hic soluta ab architecto! Mollitia hic odit animi omnis minima explicabo nesciunt nostrum voluptatum, tempore, voluptatem iusto deserunt tenetur rerum laboriosam. Sit atque magni rerum tempore voluptatibus, natus labore ex assumenda quam molestias ipsa ad velit nihil.</p>
+    
+
+
+</body>
+</html>
